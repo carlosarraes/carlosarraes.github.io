@@ -1,0 +1,141 @@
+/* *{
+    border: 1px solid red;
+} */
+
+body{
+    width: 100%;
+    background-color: #1F4690;
+    color: #FFE5B4;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: auto;
+    padding: auto;
+}
+
+a{
+    color: #FFA500;
+}
+
+h1{
+    margin-top: 0;
+    font-size: 4rem;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+
+h2, h3{
+    font-family: 'VT323', monospace;
+    color: #FFA500;
+    font-size: 2.5rem;
+    margin: 0;
+    text-shadow: 1px 1px 2px black;
+}
+
+h6{
+    position:relative;
+    bottom: 25px;
+    font-size: 0.7rem;
+}
+
+hr{
+    border-top:#3A5BA0;
+    border-style: dashed none none none;
+    width: 70%;
+    margin: 5px auto;
+}
+/* ID SELECTORS */
+
+#subtitle{
+    position: relative;
+    font-weight: normal;
+    bottom: 40px;
+    left: 110px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* CLASS SELECTORS */
+
+.profile{
+    width: 45%;
+    height: 500px;
+    text-align: left;
+    margin: 0 auto;
+}
+.card{
+    position: relative;
+    top: 125px;
+}
+.avatar{
+    width: 30%;
+    border-radius: 100%;
+    margin-right: 30px;
+    float: left;
+}
+
+.skills{
+    background-color: #3A5BA0;
+    height: 450px;
+}
+.subtitle{
+    font-size: 1.5rem;
+}
+
+.skill-row{
+    width: 400px;
+    margin: 50px auto;
+    padding: 5px 5px 35px 5px;
+    box-shadow: 1px 1px 5px black;
+    background-color:#1F4690;
+}
+
+.frontend{
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+
+.python{
+    width: 25%;
+    float: right;
+    margin-left: 10px;
+}
+
+.skill-subtitle-l, .skill-p-l{
+    text-align: left;
+}
+.skill-subtitle-r, .skill-p-r{
+    text-align: right;
+}
+
+.top-container{
+    background-color: #3A5BA0;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+}
+
+.programmer{
+    width: 40%;
+}
+
+.top-cloud{
+    position: relative;
+    left: 120px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    top: 250px;
+}
+
+.middle-container{
+    margin: auto;
+}
+
+.bottom-container{
+    margin: auto;
+}
+
+.footer-img{
+    margin: 0 15px;
+    width: 25px;
+}
