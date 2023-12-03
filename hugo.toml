@@ -1,4 +1,8 @@
 baseURL = 'https://carlosarraes.github.io/carlosarraes/'
 languageCode = 'en-us'
 title = 'carraes'
-theme = 'PaperMod'
+theme = 'elephants'
+
+[params]
+  sitename = "carraes"
+
